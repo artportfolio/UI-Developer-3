@@ -139,3 +139,33 @@ html {
 h1 {
   font-size: 7.2rem;
 }
+h2 {
+  font-size: 6rem;
+}
+h3 {
+  font-size: 4.8rem;
+}
+h4 {
+  font-size: 3.6rem;
+}
+h5 {
+  font-size: 2.4rem;
+}
+a {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: gray;
+}
+header {
+  margin: 5%;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-container {
+  margin: 30px 0;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
