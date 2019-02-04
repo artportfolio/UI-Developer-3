@@ -157,15 +157,20 @@ a {
   color: gray;
 }
 header {
-  margin: 5%;
+  margin: 20px 2.5%;
 }
 nav {
   display: flex;
   flex-wrap: wrap;
+  border-bottom: gray dashed 2px;
 }
 .nav-container {
-  margin: 30px 0;
+  margin: 20px 0;
   width: 95%;
   display: flex;
   justify-content: space-between;
+}
+.container {
+  width: 95%;
+  margin: 0 2.5%;
 }
