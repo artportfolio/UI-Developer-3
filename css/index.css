@@ -186,6 +186,12 @@ nav {
   margin-bottom: 20px;
   border-radius: 6px;
 }
+.user-content .user-card .description {
+  display: none;
+}
+.user-content .user-card .card-selected {
+  display: block;
+}
 .signUp {
   margin-bottom: 20px;
 }
