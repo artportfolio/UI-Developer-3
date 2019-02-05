@@ -167,13 +167,18 @@ body {
   font-size: 3.6rem;
   display: block;
   text-align: center;
-  width: 95%;
+  width: 100%;
   padding: 10px 0;
   color: #E8E595;
   background-color: #26393D;
   border: 2px solid #E8E595;
   border-radius: 6px;
   cursor: pointer;
+}
+@media (min-width: 800px) {
+  .button {
+    max-width: 200px;
+  }
 }
 a {
   font-size: 2.4rem;
@@ -201,14 +206,46 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+@media (min-width: 800px) {
+  .nav-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0;
+  }
+}
 .container {
   width: 100%;
+}
+@media (min-width: 800px) {
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+  }
 }
 .container .synopsis {
   margin: 20px 5%;
 }
+@media (min-width: 800px) {
+  .container .synopsis {
+    margin: 20px 0;
+    width: 100%;
+  }
+}
+@media (min-width: 800px) {
+  .user-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
 .user-content .user-card {
   border-radius: 6px;
+}
+@media (min-width: 800px) {
+  .user-content .user-card {
+    max-width: 390px;
+    margin-bottom: 20px;
+  }
 }
 .user-content .user-card img {
   width: 100%;
@@ -221,18 +258,70 @@ nav {
   display: block;
   margin: 20px 5%;
 }
+@media (min-width: 800px) {
+  .user-content .user-card .card-selected {
+    margin: 20px 0;
+  }
+}
 .signUp {
   margin-bottom: 20px;
 }
+.about-container {
+  width: 100%;
+}
+@media (min-width: 800px) {
+  .about-container {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+.about-container .synopsis {
+  margin: 20px 5%;
+}
+@media (min-width: 800px) {
+  .about-container .synopsis {
+    margin: 20px 0;
+    width: 45%;
+    order: 0;
+  }
+}
 .img-about-us img {
   width: 100%;
+}
+@media (min-width: 800px) {
+  .img-about-mid {
+    order: 1;
+    width: 45%;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 800px) {
+  .img-about-end {
+    order: 3;
+  }
 }
 .about-mid {
   padding: 20px 5% 0;
   background-color: #263B4A;
 }
+@media (min-width: 800px) {
+  .about-mid {
+    padding: 20px 0;
+    background-color: #26393D;
+    order: 2;
+  }
+}
 .about-end {
   padding: 20px 5%;
+}
+@media (min-width: 800px) {
+  .about-end {
+    padding: 20px 0 20px;
+    order: 4;
+  }
 }
 .nav-select {
   color: #88886a;
