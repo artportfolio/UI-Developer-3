@@ -137,8 +137,7 @@ html {
   font-family: 'Varela Round', sans-serif;
 }
 h1 {
-  font-size: 7.2rem;
-  font-weight: bold;
+  font-size: 2.4rem;
 }
 h2 {
   font-size: 6rem;
@@ -155,21 +154,29 @@ h5 {
   font-size: 2.4rem;
 }
 p {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 20px;
+  line-height: 125%;
+}
+body {
+  background-color: #26393D;
+  color: #88886a;
 }
 a {
   font-size: 2.4rem;
   text-decoration: none;
-  color: gray;
+  color: #E8E595;
 }
 header {
-  margin: 20px 2.5%;
+  margin: 0 0 20px 0;
+  padding: 0 2.5% 0;
+  background-color: #40627C;
+  color: #E8E595;
+  box-shadow: 2px 2px 50px black;
 }
 nav {
   display: flex;
   flex-wrap: wrap;
-  border-bottom: gray dashed 2px;
 }
 .nav-container {
   margin: 20px 0;
@@ -178,12 +185,17 @@ nav {
   justify-content: space-between;
 }
 .container {
-  width: 95%;
-  margin: 0 2.5%;
+  width: 100%;
+}
+.container .synopsis {
+  margin: 20px 5%;
+}
+.user-content .user-card {
+  margin-bottom: 20px;
+  border-radius: 6px;
 }
 .user-content .user-card img {
   width: 100%;
-  margin-bottom: 20px;
   border-radius: 6px;
   cursor: pointer;
 }
@@ -192,6 +204,7 @@ nav {
 }
 .user-content .user-card .card-selected {
   display: block;
+  margin: 20px 5%;
 }
 .signUp {
   margin-bottom: 20px;

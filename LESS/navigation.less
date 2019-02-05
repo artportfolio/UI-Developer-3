@@ -1,18 +1,22 @@
 a {
     font-size: 2.4rem;
     text-decoration: none;
-    color: gray;
+    color: @navText;
 }
 
 // navigation display
 header {
-    margin: 20px 2.5%;
+    margin: 0 0 20px 0;
+    padding: 0 2.5% 0;
+    background-color: @navBg;
+    color: @navText;
+    box-shadow: 2px 2px 50px black;
 }
 
 nav {
     display: flex;
     flex-wrap: wrap;
-    border-bottom: gray dashed 2px;
+    // border-bottom: gray dashed 2px;
 }
 
 .nav-container {
