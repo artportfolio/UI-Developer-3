@@ -168,8 +168,6 @@ a {
   color: #E8E595;
 }
 header {
-  margin: 0 0 20px 0;
-  padding: 0 2.5% 0;
   background-color: #40627C;
   color: #E8E595;
   box-shadow: 2px 2px 50px black;
@@ -180,7 +178,8 @@ nav {
 }
 .nav-container {
   margin: 20px 0;
-  width: 95%;
+  padding: 0 5%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -191,12 +190,10 @@ nav {
   margin: 20px 5%;
 }
 .user-content .user-card {
-  margin-bottom: 20px;
   border-radius: 6px;
 }
 .user-content .user-card img {
   width: 100%;
-  border-radius: 6px;
   cursor: pointer;
 }
 .user-content .user-card .description {

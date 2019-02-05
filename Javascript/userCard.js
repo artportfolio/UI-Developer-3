@@ -3,7 +3,6 @@ class Card {
         this.domElement = domElement;
 
         this.cardSelect = this.domElement.querySelector('.description');
-        console.log(this.cardSelect);
 
         this.domElement.addEventListener('click', () => this.selectPic());
     }
