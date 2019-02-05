@@ -201,11 +201,36 @@ nav {
 .container {
   width: 100%;
 }
+@media (min-width: 800px) {
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+}
 .container .synopsis {
   margin: 20px 5%;
 }
+@media (min-width: 800px) {
+  .container .synopsis {
+    margin: 20px 0;
+    width: 100%;
+  }
+}
+@media (min-width: 800px) {
+  .user-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
 .user-content .user-card {
   border-radius: 6px;
+}
+@media (min-width: 800px) {
+  .user-content .user-card {
+    max-width: 390px;
+    margin-bottom: 20px;
+  }
 }
 .user-content .user-card img {
   width: 100%;
@@ -217,6 +242,11 @@ nav {
 .user-content .user-card .card-selected {
   display: block;
   margin: 20px 5%;
+}
+@media (min-width: 800px) {
+  .user-content .user-card .card-selected {
+    margin: 20px 0;
+  }
 }
 .signUp {
   margin-bottom: 20px;
