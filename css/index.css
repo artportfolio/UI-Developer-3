@@ -208,3 +208,13 @@ nav {
 .signUp {
   margin-bottom: 20px;
 }
+.img-about-us img {
+  width: 100%;
+}
+.about-mid {
+  padding: 20px 5% 0;
+  background-color: #263B4A;
+}
+.about-end {
+  padding: 20px 5% 0;
+}
