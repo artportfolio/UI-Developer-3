@@ -175,6 +175,11 @@ body {
   border-radius: 6px;
   cursor: pointer;
 }
+@media (min-width: 800px) {
+  .button {
+    max-width: 200px;
+  }
+}
 a {
   font-size: 2.4rem;
   text-decoration: none;
@@ -251,15 +256,62 @@ nav {
 .signUp {
   margin-bottom: 20px;
 }
+.about-container {
+  width: 100%;
+}
+@media (min-width: 800px) {
+  .about-container {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+.about-container .synopsis {
+  margin: 20px 5%;
+}
+@media (min-width: 800px) {
+  .about-container .synopsis {
+    margin: 20px 0;
+    width: 45%;
+    order: 0;
+  }
+}
 .img-about-us img {
   width: 100%;
+}
+@media (min-width: 800px) {
+  .img-about-mid {
+    order: 1;
+    width: 45%;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 800px) {
+  .img-about-end {
+    order: 3;
+  }
 }
 .about-mid {
   padding: 20px 5% 0;
   background-color: #263B4A;
 }
+@media (min-width: 800px) {
+  .about-mid {
+    padding: 20px 0;
+    background-color: #26393D;
+    order: 2;
+  }
+}
 .about-end {
   padding: 20px 5%;
+}
+@media (min-width: 800px) {
+  .about-end {
+    padding: 20px 0 20px;
+    order: 4;
+  }
 }
 .nav-select {
   color: #88886a;
