@@ -171,6 +171,8 @@ header {
   background-color: #40627C;
   color: #E8E595;
   box-shadow: 2px 2px 50px black;
+  position: sticky;
+  top: 0;
 }
 nav {
   display: flex;
