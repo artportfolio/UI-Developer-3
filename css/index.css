@@ -146,6 +146,7 @@ h2 {
 h3 {
   font-size: 4.8rem;
   margin-bottom: 20px;
+  color: #a09d67;
 }
 h4 {
   font-size: 3.6rem;
@@ -212,6 +213,28 @@ nav .letter-spaced {
     margin: 20px auto;
     padding: 0;
   }
+}
+.call-to-action {
+  width: 100%;
+  background-image: url("../img/abstract-art-black-background-1040499.jpg");
+  background-position: bottom;
+  background-size: 1050px;
+}
+.call-to-action div {
+  color: #40627C;
+  font-weight: bold;
+  padding: 100px 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.call-to-action div h2 {
+  text-shadow: 4px 4px 5px #263B4A;
+  padding-bottom: 20px;
+}
+.call-to-action .button {
+  margin-top: 50px;
+  background: transparent;
+  font-weight: normal;
 }
 .container {
   width: 100%;
