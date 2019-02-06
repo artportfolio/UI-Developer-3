@@ -223,9 +223,14 @@ nav .letter-spaced {
 .call-to-action div {
   color: #40627C;
   font-weight: bold;
-  padding: 100px 0;
+  padding: 100px 5%;
   max-width: 800px;
   margin: 0 auto;
+}
+@media (min-width: 800px) {
+  .call-to-action div {
+    padding: 100px 0;
+  }
 }
 .call-to-action div h2 {
   text-shadow: 4px 4px 5px #263B4A;

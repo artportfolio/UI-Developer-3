@@ -7,9 +7,13 @@
     div {
         color: @navBg;
         font-weight: bold;
-        padding: 100px 0;
+        padding: 100px 5%;
         max-width: 800px;
         margin: 0 auto;
+
+        @media(min-width: 800px) {
+            padding: 100px 0;
+        }
 
         h2 {
             text-shadow: 4px 4px 5px @darkBlue;
