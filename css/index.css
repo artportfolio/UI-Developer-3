@@ -156,7 +156,7 @@ h5 {
 }
 p {
   font-size: 1.6rem;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   line-height: 125%;
 }
 body {
@@ -266,9 +266,6 @@ nav .letter-spaced {
     flex-wrap: wrap;
   }
 }
-.user-content .user-card {
-  border-radius: 6px;
-}
 @media (min-width: 800px) {
   .user-content .user-card {
     max-width: 390px;
@@ -307,7 +304,7 @@ nav .letter-spaced {
   }
 }
 .about-container .synopsis {
-  margin: 20px 5%;
+  margin: 20px 5% 0;
 }
 @media (min-width: 800px) {
   .about-container .synopsis {
