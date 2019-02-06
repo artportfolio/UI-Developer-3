@@ -196,6 +196,9 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
+nav .letter-spaced {
+  letter-spacing: 0.4rem;
+}
 .nav-container {
   margin: 20px 0;
   padding: 0 5%;
