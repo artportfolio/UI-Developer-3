@@ -2,7 +2,6 @@ a {
     font-size: 2.4rem;
     text-decoration: none;
     color: @navText;
-
 }
 
 // navigation display
@@ -20,6 +19,12 @@ nav {
     // border-bottom: gray dashed 2px;
     .letter-spaced {
         letter-spacing: 0.4rem;
+    }
+
+    .fix-center {
+        @media(min-width: 800px) {
+            padding-right: 55px;
+        }
     }
 }
 
