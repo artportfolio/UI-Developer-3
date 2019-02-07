@@ -279,6 +279,11 @@ nav .letter-spaced {
   width: 100%;
   cursor: pointer;
 }
+@media (min-width: 800px) {
+  .user-content .user-card img {
+    box-shadow: 0 0 12px white;
+  }
+}
 .user-content .user-card .description {
   display: none;
 }
