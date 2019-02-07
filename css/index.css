@@ -200,6 +200,11 @@ nav {
 nav .letter-spaced {
   letter-spacing: 0.4rem;
 }
+@media (min-width: 800px) {
+  nav .fix-center {
+    padding-right: 55px;
+  }
+}
 .nav-container {
   margin: 20px 0;
   padding: 0 5%;
@@ -233,7 +238,7 @@ nav .letter-spaced {
   }
 }
 .call-to-action div h2 {
-  text-shadow: 4px 4px 5px black;
+  text-shadow: -2px 5px 5px #111F22;
   padding-bottom: 20px;
 }
 .call-to-action .button {
