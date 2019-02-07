@@ -260,7 +260,7 @@ nav .letter-spaced {
 }
 @media (min-width: 800px) {
   .container .synopsis {
-    margin: 20px 0;
+    margin: 20px 0 0;
     width: 100%;
   }
 }
@@ -301,7 +301,7 @@ nav .letter-spaced {
 }
 @media (min-width: 800px) {
   .user-content .user-card .card-selected {
-    margin: 20px 0;
+    margin: 20px 0 0;
   }
 }
 .signUp {
@@ -350,7 +350,7 @@ nav .letter-spaced {
 }
 @media (min-width: 800px) {
   .about-mid {
-    padding: 20px 0;
+    padding: 20px 0 0;
     background-color: #26393D;
     order: 2;
   }
