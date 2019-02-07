@@ -156,7 +156,7 @@ h5 {
 }
 p {
   font-size: 1.6rem;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   line-height: 125%;
 }
 body {
@@ -256,7 +256,7 @@ nav .letter-spaced {
   }
 }
 .container .synopsis {
-  margin: 20px 5%;
+  margin: 20px 5% 0;
 }
 @media (min-width: 800px) {
   .container .synopsis {
@@ -296,6 +296,9 @@ nav .letter-spaced {
   display: block;
   margin: 20px 5%;
 }
+.user-content .user-card .card-selected p {
+  padding-bottom: 0;
+}
 @media (min-width: 800px) {
   .user-content .user-card .card-selected {
     margin: 20px 0;
@@ -317,7 +320,7 @@ nav .letter-spaced {
   }
 }
 .about-container .synopsis {
-  margin: 20px 5%;
+  margin: 20px 5% 0;
 }
 @media (min-width: 800px) {
   .about-container .synopsis {
