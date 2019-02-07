@@ -146,7 +146,7 @@ h2 {
 h3 {
   font-size: 4.8rem;
   margin-bottom: 20px;
-  color: #cecb8e;
+  color: #E8E595;
 }
 h4 {
   font-size: 3.6rem;
@@ -212,6 +212,22 @@ nav .letter-spaced {
   display: flex;
   justify-content: space-between;
 }
+.nav-container a {
+  font-size: 2rem;
+}
+.nav-container a h1 {
+  font-size: 2rem;
+}
+@media (min-width: 800px) {
+  .nav-container a h1 {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 800px) {
+  .nav-container a {
+    font-size: 2.4rem;
+  }
+}
 @media (min-width: 800px) {
   .nav-container {
     max-width: 800px;
@@ -240,6 +256,12 @@ nav .letter-spaced {
 .call-to-action div h2 {
   text-shadow: -2px 5px 5px #111F22;
   padding-bottom: 20px;
+  font-size: 5rem;
+}
+@media (min-width: 460px) {
+  .call-to-action div h2 {
+    font-size: 6rem;
+  }
 }
 .call-to-action .button {
   margin-top: 50px;
