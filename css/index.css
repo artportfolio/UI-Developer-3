@@ -281,7 +281,7 @@ nav .letter-spaced {
 }
 @media (min-width: 800px) {
   .user-content .user-card img {
-    box-shadow: 0 0 12px white;
+    box-shadow: 0 0 12px #0f1618;
   }
 }
 .user-content .user-card .description {
