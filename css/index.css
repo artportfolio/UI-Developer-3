@@ -212,6 +212,22 @@ nav .letter-spaced {
   display: flex;
   justify-content: space-between;
 }
+.nav-container a {
+  font-size: 2rem;
+}
+.nav-container a h1 {
+  font-size: 2rem;
+}
+@media (min-width: 800px) {
+  .nav-container a h1 {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 800px) {
+  .nav-container a {
+    font-size: 2.4rem;
+  }
+}
 @media (min-width: 800px) {
   .nav-container {
     max-width: 800px;

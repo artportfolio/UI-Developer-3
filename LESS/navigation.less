@@ -35,6 +35,22 @@ nav {
     display: flex;
     justify-content: space-between;
 
+    a {
+        font-size: 2rem;
+        
+        h1 {
+            font-size: 2rem;
+
+            @media(min-width: 800px) {
+                font-size: 2.4rem;
+            }
+        }
+
+        @media(min-width: 800px) {
+            font-size: 2.4rem;
+        }
+    }
+
     @media(min-width: 800px) {
         max-width: 800px;
         margin: 20px auto;
